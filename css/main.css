@@ -10,52 +10,22 @@ DECLARACION DE UNI ID "#"
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: orange;
+	background: #ffd300;
 }
+
+ /*ajustar tamaño de imagenes **********/
+img {
+	max-width: 100%; 
+}
+
+
+/*List-Style: None Permite quitar las vinetas de los elementos (li) de las listas (ul).*/
 
 /*******************HEADING*******************/
 header{
 
-	background: #6ab47b;
-	border-color: #599a68;
-}
-
-/*
-DECLARACION DE UNI ID "#"
-*/
-#logo {
-text-align: center;
-margin: 0;
-}
-
-h1, h2{
-
-	color: #fff;
-}
- 
-
-/*******************NAVIGATION********************/ 
-nav{
-
-	background: #6db69c;
-}
-
-nav a, nav a:visited{
-
-	color: #fff
-}
-/*
-DECLARACION DE CLASE
-*/
-nav a.selected{
-color: #ffe800;
-
-}
-/*
-DECLARACION DE PSEUDOCLASE
-*/
-nav a:hover{
-color: #32673f;
+	background: #ffde40;
+	border-color: #ffe773;
 }
 
 /******************fonts**************/
@@ -71,8 +41,78 @@ line-height: 0.8em;/*espacio entre o parrafos lineas*/
 
 h2 {
 	
-font-family: 'Bangers', cursive;
-margin: 15px 0 0;	
+font-family: 'Bangers', sans-serif;
+margin: 25px 0 0;	
 font-size: 1.75em;	
 font-weight: normal;
+}
+/*
+DECLARACION DE UNI ID "#"
+*/
+#logo {
+text-align: center;
+margin: 0;
+}
+
+h1, h2{
+	color: #000;
+}
+ 
+
+
+/*******************NAVIGATION********************/ 
+nav{
+
+	background: #ffe773;
+}
+
+nav a, nav a:visited{
+
+	color: #000;
+}
+
+
+/*
+DECLARACION DE CLASE
+*/
+nav a.selected{
+color: #000;
+}
+/*
+DECLARACION DE PSEUDOCLASE
+*/
+nav a:hover{
+color: #ff0000;
+}
+
+
+
+
+/****************seccion footer*******************/
+
+
+
+
+/****************seccion galeria******************/
+#galeria {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+/*background-color: #000;*/
+}
+
+/*************************galeria flotante a la izquierda****************/
+#galeria li{
+	float: left;
+	width: 45%;   /*tamaño de la imagen*/
+	margin: 2.5%; /*separacion de imagenes*/
+	background-color: #000;
+	color: #000;
+}
+
+#galeria li a p{ 
+margin: 0;
+padding: 5%;
+font-size: 0.75em;
+color: #bdc3c7;
 }
