@@ -1,9 +1,11 @@
- 
+/*************DECLARACIONES GENERALES******************/ 
 a
 {
 	text-decoration: none;
 }
-
+/*
+DECLARACION DE UNI ID "#"
+*/
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
@@ -11,22 +13,28 @@ a
 	background: orange;
 }
 
-#logo {
-text-align: center;
-margin: 0;
-}
-
+/*******************HEADING*******************/
 header{
 
 	background: #6ab47b;
 	border-color: #599a68;
 }
 
+/*
+DECLARACION DE UNI ID "#"
+*/
+#logo {
+text-align: center;
+margin: 0;
+}
+
 h1, h2{
 
 	color: #fff;
 }
+ 
 
+/*******************NAVIGATION********************/ 
 nav{
 
 	background: #6db69c;
@@ -35,4 +43,36 @@ nav{
 nav a, nav a:visited{
 
 	color: #fff
+}
+/*
+DECLARACION DE CLASE
+*/
+nav a.selected{
+color: #ffe800;
+
+}
+/*
+DECLARACION DE PSEUDOCLASE
+*/
+nav a:hover{
+color: #32673f;
+}
+
+/******************fonts**************/
+h1 {
+	
+font-family: 'Exo', sans-serif;
+margin: 15px 0;	
+font-size: 1.75em;	
+font-weight: normal;
+line-height: 0.8em;/*espacio entre o parrafos lineas*/
+}
+
+
+h2 {
+	
+font-family: 'Bangers', cursive;
+margin: 15px 0 0;	
+font-size: 1.75em;	
+font-weight: normal;
 }
