@@ -116,10 +116,11 @@ nav a{
 
 /*************************galeria flotante a la izquierda****************/
 #galeria li{
+
 	float: left;
-	width: 45%;   /*tamaño de la imagen*/
+	width: 540%;   /*tamaño en pixeles para 3 columno*/
 	margin: 2.5%; /*separacion de imagenes*/
-	background-color: #000;
+	background-color: #fff;
 	color: #000;
 }
 
@@ -160,7 +161,7 @@ header {
 /*ACERCA DE*/
 .profile-photo{
 display: block;
-max-width: 150px;
+max-width: 450px;
 margin: 0 auto 30px;
 border-radius: 100%;
 
