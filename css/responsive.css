@@ -68,3 +68,10 @@ h2{
 	font-size: 0.825em;
 	margin-bottom: 20px;
 }
+
+/*************finalizado de encabezado*************/
+header{
+	border-bottom: 5px solid #599a68;
+	margin-bottom: 60px;
+
+}
